@@ -1,0 +1,27 @@
+{
+  "name": "tailwind_css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:dev": "tailwindcss -o tailwind.css --watch",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
+  },
+  "author": "Daniel Cardenas",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARKAD0/Layout-Responsive-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARKAD0/Layout-Responsive-/issues"
+  },
+  "homepage": "https://github.com/ARKAD0/Layout-Responsive-#readme",
+  "description": ""
+}
